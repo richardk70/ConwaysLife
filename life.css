@@ -1,0 +1,31 @@
+body {
+    line-height: .7em;
+}
+
+#main{
+    position: absolute;
+    top: 50%;
+    min-top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ccc;
+    border: 1px solid black;
+    padding: 0px;
+}
+
+.cell{
+    width: 7px;
+    height: 7px;
+    border: 1px solid rgba(0,0,0,0.2);
+    display: inline-block;
+    margin: 1px;
+
+}
+
+.off{
+    background-color: none;
+}
+
+.on{
+    background-color: black;
+}
